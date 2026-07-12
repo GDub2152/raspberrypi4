@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Scoreboard Settings</title><link rel="stylesheet" href="/static/style.css"></head><body class="settings-page"><div class="settings-card"><h1>Scoreboard Settings</h1><form id="form">
+<label>Location name<input name="location_name"></label><div class="row"><label>Latitude<input name="latitude" type="number" step="any"></label><label>Longitude<input name="longitude" type="number" step="any"></label></div>
+<label>Sports, comma-separated<input name="sports" placeholder="mlb,nfl,nhl,nba,ncaaf"></label><label>Favorite team abbreviations<input name="favorite_teams"></label>
+<div class="row"><label>Panel rotation seconds<input name="rotation_seconds" type="number"></label><label>Ticker travel seconds<input name="ticker_speed_seconds" type="number"></label></div>
+<label>ADS-B aircraft.json URL<input name="adsb_url"></label>
+<div class="checks"><label><input type="checkbox" name="weather_enabled"> Weather</label><label><input type="checkbox" name="solar_enabled"> Solar/Ham</label><label><input type="checkbox" name="adsb_enabled"> ADS-B</label><label><input type="checkbox" name="headlines_enabled"> Headlines</label></div>
+<button>Save settings</button><a href="/">Return to display</a><p id="msg"></p></form></div><script src="/static/settings.js"></script></body></html>

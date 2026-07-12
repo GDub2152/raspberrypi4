@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pi Sports Command Center</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><div id="app">
+<header><div><span class="live-dot"></span><b>SPORTS COMMAND CENTER</b><small id="location">LOADING</small></div><div class="clocks"><b id="localTime"></b><span id="utcTime"></span></div></header>
+<main>
+<section class="hero panel"><div class="section-title"><span id="sportTitle">LIVE SCORES</span><span id="updated"></span></div><div id="games" class="games"></div></section>
+<aside class="side-grid">
+<div class="panel weather"><div class="section-title">WEATHER</div><div class="big" id="temp">--°</div><div id="weatherDetails">Connecting…</div></div>
+<div class="panel solar"><div class="section-title">HAM / SPACE WEATHER</div><div class="metrics"><div><b id="sfi">--</b><span>SFI</span></div><div><b id="kp">--</b><span>Kp</span></div><div><b id="wind">--</b><span>km/s</span></div></div><div id="bands" class="bands"></div></div>
+<div class="panel adsb"><div class="section-title">LOCAL ADS-B</div><div><b class="big" id="aircraftCount">--</b> aircraft seen</div><div id="aircraft"></div></div>
+</aside></main>
+<div class="ticker"><span class="ticker-label" id="tickerLabel">SCORES</span><div class="ticker-window"><div id="tickerTrack" class="ticker-track">Starting scoreboard…</div></div></div>
+<footer><span id="status">SYSTEM STARTING</span><span>Settings: <b id="settingsUrl"></b></span></footer>
+</div><script src="/static/app.js"></script></body></html>

@@ -1,0 +1,16 @@
+{
+  "location_name": "Parma, Ohio",
+  "latitude": 41.4048,
+  "longitude": -81.7229,
+  "timezone": "America/New_York",
+  "sports": ["mlb", "nfl", "nhl", "nba", "ncaaf"],
+  "favorite_teams": ["CLE", "CIN", "DET", "CBJ", "BROWNS"],
+  "rotation_seconds": 18,
+  "ticker_speed_seconds": 45,
+  "weather_enabled": true,
+  "solar_enabled": true,
+  "adsb_enabled": true,
+  "headlines_enabled": true,
+  "adsb_url": "http://127.0.0.1/tar1090/data/aircraft.json",
+  "theme": "cockpit"
+}
